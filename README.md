@@ -1,5 +1,7 @@
 # Smile Migraine LAMP + Slim PHP
 
+Make sure to run below command to clone Smile Migraine's backend api
+
 ```
 RUN git clone git@github.com:aommy05349/smapi_dev.git www
 ```
