@@ -3,7 +3,7 @@
 Make sure to run below command to clone Smile Migraine's backend api
 
 ```
-RUN git clone git@github.com:aommy05349/smapi_dev.git www
+git clone git@github.com:aommy05349/smapi_dev.git www
 ```
 
 I use docker-compose as an orchestrator. To run these containers:
