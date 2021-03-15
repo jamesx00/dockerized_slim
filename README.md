@@ -1,6 +1,8 @@
 # Smile Migraine LAMP + Slim PHP
 
+```
 RUN git clone git@github.com:aommy05349/smapi_dev.git www
+```
 
 Docker Apache, MySql 8.0, PhpMyAdmin and Php
 
