@@ -1,4 +1,4 @@
-# docker-lamp
+# Smile Migraine LAMP + Slim PHP
 
 RUN git clone git@github.com:aommy05349/smapi_dev.git www
 
