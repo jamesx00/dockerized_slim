@@ -8,8 +8,9 @@ RUN apt-get update \
 RUN pecl install grpc
 RUN apt-get update
 RUN apt-get install fish -y
+RUN apt-get install libpng-dev -y
+RUN docker-php-ext-install gd
 RUN docker-php-ext-enable grpc
 RUN a2enmod rewrite
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 COPY ./www/ /var/www/html
-RUN composer install
