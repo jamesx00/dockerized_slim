@@ -12,6 +12,11 @@ I use docker-compose as an orchestrator. To run these containers:
 docker-compose up -d
 ```
 
+Run this command to import data
+```
+docker exec -i dockerized_slim_db_1 mysql -uroot -ptest smilemigraine < smilemigraine.sql
+```
+
 Docker Apache, MySql 8.0, PhpMyAdmin and Php
 
 - You can use MariaDB 10.1 if you checkout to the tag `mariadb-10.1` - contribution made by [luca-vercelli](https://github.com/luca-vercelli)
